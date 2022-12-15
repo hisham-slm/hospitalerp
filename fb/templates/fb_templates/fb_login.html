@@ -1,0 +1,78 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+</head>
+
+<body>
+    <table  width="100%" cellspacing="0">
+        <tr bgcolor="#3333ff">
+            <th width="50%" align="left" style="color:white ;">
+                <label  ><img width="150px" src="{% static 'images\facebook.jpg' %}" alt=""></label>
+            </th>
+            <th >
+                <form action="">
+                    <input size="10px" type="text">
+                    <input size="10px" type="password">
+                    <input type="button" value="Login">
+                </form>
+            </th>
+        </tr>
+        <tr bgcolor="#e6ffff">
+            <td>
+                <table width="100%">
+                    <tr>
+                        <td style="font-size:20px; font-weight:bolder;"><br>
+                            <label>Connect with friends and the world</label>
+                            <label>around you on Facebook</label>
+                        </td>
+                    </tr>
+                    <td>
+                        <form action="">
+                            <br><br>
+                            <img src="{% static 'images\feed.jpg' %}" alt="image can be loaded" width="20px" height="20px">
+                            <label style="font-size: 14px; font-weight: bold;" for="">See photos and updates from
+                                friends in news feed</label>
+                            <br><img src="{% static 'images\share.jpg' %}" alt="image can be loaded" height="20px">
+                            <label style="font-size: 14px; font-weight: bold;" for="">
+                                share whats new on your life on time line
+                            </label>
+                            <label style="font-size: 14px; font-weight: bold;" for="">
+                                <br><img src="{% static 'images\star.jpg' %}" alt="image can be loaded" height="20px">
+                                Find more of what you're looking for with Graph search
+                            </label>
+                        </form>
+                    </td>
+                    <tr>
+                    </tr>
+                </table>
+                <td align="left">
+                    <table align="center" >
+                        <th>
+                            <label for="">Sign Up</label><br>
+                        </th>
+                        
+                    </table>
+                    
+                    <form action="">
+                        
+                        <input placeholder="First Name" size="7px" type="text">
+                        <input placeholder="Surname" size="25x" type="text"><br>
+                        <br><input placeholder="Phone Number" size="38px" type="text">
+                        <br><br><input placeholder="Email" size="38px" type="text">
+                        <br><br><input placeholder="Password" size="38px" type="password"><br>
+                        <br><input  type="button" value="Sign Up">
+                    </form>
+                </td>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
